@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive Travel agency website design tutorial</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#service">service</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+
+        </form>
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- login from container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-time" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have any account<a href="#">Register now</a></p>
+
+        </form>
+
+
+    </div>
+    <!-- login from container end-->
+
+    <!--home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhiles</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="img/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-5.mp4"></span>
+        </div>
+
+
+        <div class="video-container">
+            <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!--home section ends -->
+
+    <!--book section starts -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img/travel.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+
+                <div class="inputbox">
+                    <h3>how many</h3>
+                    <input type="text" placeholder="number of guests">
+                </div>
+
+                <div class="inputbox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputbox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+            </form>
+        </div>
+
+
+    </section>
+    <!--book section ends -->
+    <!--package section starts -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <img src="img/taj.png" alt=""></img>
+                    <h3><i class="fas fa-map-marker-alt"></i>mumabi</h3>
+                    <p>Mumbai is a mix of iconic old-world charm architecture, strikingly modern high rises, cultural
+                        and traditional structures, and whatnot. The city is known as the commercial capital of India,
+                        but there is more to it than that. Mumbai is all about art, history, culture, food, theatre,
+                        cinema, nightlife and a lot more.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="img/newyork.jpg" alt=""></img>
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>New York</h3>
+                    <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At
+                        its core is Manhattan, a densely populated borough that’s among the world’s major commercial,
+                        financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State
+                        Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/tokyo.jpg" alt=""></img>
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>tokyo</h3>
+                    <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers
+                        to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and
+                        surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums
+                        offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed
+                        kabuki theater (in the Edo-Tokyo Museum).</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/musct.jpg" alt=""></img>
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>muscat</h3>
+                    <p>Muscat, Oman’s port capital, sits on the Gulf of Oman surrounded by mountains and desert. With
+                        history dating back to antiquity, it mixes high-rises and upscale shopping malls with clifftop
+                        landmarks such as the 16th-century Portuguese forts, Al Jalali and Mirani, looming over Muscat
+                        Harbor. Its modern, marble-clad Sultan Qaboos Grand Mosque, with 50m dome and prodigious Persian
+                        carpet, can accommodate 20,000 people.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img/london.jpg" alt=""></img>
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>london</h3>
+                    <p>London, the capital of England and the United Kingdom, is a 21st-century city with history
+                        stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the
+                        iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across
+                        the Thames River, the London Eye observation wheel provides panoramic views of the South Bank
+                        cultural complex, and the entire city.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <img src="img/italy.jpg" alt=""></img>
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>rome</h3>
+                    <p>Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the
+                        Metropolitan City of Rome, and a special comune named Comune di Roma Capitale.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+     <!--package section ends -->
+      <!--service section starts -->    
+<section class="service" id="service">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+<div class="box-container">
+
+
+<div class="box">
+    <i class="fas fa-hotel"></i>
+<h3>affordable hotels</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+
+
+<div class="box">
+    <i class="fas fa-utensils"></i>
+<h3>food and drinks</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+
+<div class="box">
+    <i class="fas fa-bullhorn"></i>
+<h3>safety guide</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+
+<div class="box">
+    <i class="fas fa-globe-asia"></i>
+<h3>around the world</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+    
+
+<div class="box">
+    <i class="fas fa-plane"></i>
+<h3>fastest travel</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+
+<div class="box">
+    <i class="fas fa-hiking"></i>
+<h3>adventure</h3>
+<p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+</div>
+
+    </div>
+</section>
+<!--service section ends -->  
+<!--gallery section starts -->
+
+<section class="gallery" id="gallery">
+<h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+        <span>s</span>
+    </h1>
+
+<div class="box-container">
+    
+    <div class="box">
+    <img src="img/g1.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="box">
+    <img src="img/g2.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    <div class="box">
+    <img src="img/g3.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    <div class="box">
+    <img src="img/g4.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="box">
+    <img src="img/g5.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="box">
+    <img src="img/g6.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="box">
+    <img src="img/g7.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    <div class="box">
+    <img src="img/g8.jpg" alt="">
+        <div class="content">
+        <h3>amazing places</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+         <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    
+    
+    
+    </div>
+</section>
+<!--gallery section ends -->  
+
+<!--review section starts --> 
+
+<section class="review" id="review">
+<h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+       </h1>
+
+<div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+    
+    <div class="swiper-slide">
+        <div class="box">
+        <img src="img/r1.JPG" alt="">
+            <h3>john deo</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+        </div>
+        </div>
+    
+    <div class="swiper-slide">
+        <div class="box">
+        <img src="img/r2.jpg" alt="">
+            <h3>john deo</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+        </div>
+        </div>
+    
+        <div class="swiper-slide">
+        <div class="box">
+        <img src="img/r3.jpg" alt="">
+            <h3>john deo</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+        </div>
+        </div>
+    
+        <div class="swiper-slide">
+        <div class="box">
+        <img src="img/r4.jpg" alt="">
+            <h3>john deo</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+        </div>
+        </div>
+    
+    
+    <div class="swiper-slide">
+        <div class="box">
+        <img src="img/r5.jpg" alt="">
+            <h3>john deo</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+        </div>
+        </div>
+    
+</div>
+    
+    </div>
+
+</section>
+<!--review section ends --> 
+<!--contact section starts --> 
+<section class="contact" id="contact">
+
+<h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+       <span>t</span>
+       </h1>
+
+<div class="row">
+    <div class="image">
+    <img src="img/contact.jpg" alt="">
+        </div>
+    <form action="">
+    
+    <div class="inputbox">
+        <input type="text" placeholder="name">
+         <input type="email" placeholder="email">
+        </div>
+    
+    
+    <div class="inputbox">
+        <input type="number" placeholder="number">
+         <input type="text" placeholder="subject">
+        </div>
+        <div class="inputbox">   <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    <input type="submit" class="btn" value="send message">
+
+ 
+            </form>
+    
+    </div>
+
+
+
+
+</section>
+<!--contact section ends -->
+
+<!--brand section strats -->
+<section class="brand-container">
+
+
+<div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+    
+            <div class="swiper-slide"><img src="img/b1.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/b2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/b3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/b4.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/b5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/b6.png" alt=""></div>
+    
+</div>
+    
+</div>
+</section>
+<!--brand section ends -->
+<!--footer section strats -->
+
+<section class="footer">
+<div class="box-container">
+    
+    <div class="box">
+    <h3>about us</h3>
+        <p>lorem ipem dolor sit met lorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit metlorem ipem dolor sit met</p>
+        </div>
+    <div class="box">
+    <h3>Branch location</h3>
+        <a href="#">india</a>
+          <a href="#">Uae</a>
+          <a href="#">japan</a>
+          <a href="#">usa</a>
+    </div>
+    <div class="box">
+    <h3>quick links</h3>
+           <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#service">service</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+  
+</div>
+    <div class="box">
+    <h3>follow us</h3>
+           <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+</div>
+    
+    
+    </div>
+
+
+<h1 class="credit">created by<span> ISL TECH 2023</span> |all right reserved</h1>
+
+
+</section>
+
+
+    <!-- custom js file link  -->
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
